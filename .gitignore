@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# environments
+.env
+venv/
+rf_env/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Mac
+.DS_Store
+
+# logs and exports
+logs/
+exports/
+
+# VSCode
+.vscode/
