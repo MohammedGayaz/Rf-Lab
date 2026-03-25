@@ -24,7 +24,7 @@ class SignalGenerator:
         Parameters
         ----------
         frequency   : float - Hz
-        amplitude   : float - Vlots 
+        amplitude   : float - Volts 
         phasae deg  : float - degrees
         duration    : float - seconds
 
@@ -45,7 +45,7 @@ class SignalGenerator:
         """
         Generate a Cosine wave.
         
-        parameters
+        parametersator.py and then you're clear to start Phase 2 — Frequency Domain (FFT). Wa
         ----------
         frequency   : float - Hz
         amplitude   : float - volts
@@ -89,7 +89,7 @@ class SignalGenerator:
         #     )
         # )
 
-        # is np.where return +1 if sin > 0 or -1 if sin is 0 no in between values
+        # is np.where return +1 if sin > 0 or -1 every where else 
         signal = amplitude * np.where(
             np.sin(2 * np.pi * t * frequency + phase_rad) > 0 , +1 , -1
         )
@@ -129,7 +129,7 @@ class SignalGenerator:
         parameters
         ----------
         amplitude   : float - volts
-        duartion    : float - seconds
+        duration    : float - seconds
 
         Return
         ------
